@@ -24,7 +24,7 @@ data "terraform_remote_state" "hcp_vault_manage" {
   config = {
     organization = var.tfc_org
     workspaces = {
-      name = "hcp-vault-manage"
+      name = "vault-config"
     }
   }
 }
